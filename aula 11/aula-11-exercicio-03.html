@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercicio 01</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <section>
+      <form method="GET" action="dados-2.php">
+          DE: <input type="number" name="contador" min="0" max="1000" required=""/>
+          ATÉ:<input type="number" name="limite" min="0" max="1000" required=""/>
+          INCREMENTO:
+          <select name="incremento">
+              <option name="opt" value="1" selected>1</option>
+              <option name="opt" value="2">2</option>
+              <option name="opt" value="3">3</option>
+              <option name="opt" value="4">4</option>
+              <option name="opt" value="5">5</option>
+          </select>
+          <hr>
+          <input type="submit" value="Contar" name="cont+"/>
+      </form>
+    </section>
+</body>
+</html>
